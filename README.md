@@ -17,8 +17,7 @@ Date
 
 📱 Fully responsive layout with Bootstrap
 
-📸 Screenshot:
-https://github.com/anishenduri/digital-khata/blob/main/Screenshot%202025-07-26%20193305.png
+📸 Screenshot:![Digital Khata App]/Screenshot%202025-07-26%20193305.png
 
 
 
