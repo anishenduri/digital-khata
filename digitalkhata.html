@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Digital Khata - Expense Tracker</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+
+    <!-- FontAwesome for icons -->
+    <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="digitalkhata.css" />
+</head>
+
+<body>
+    <div class="todos-bg-container d-flex flex-column justify-content-between">
+        <div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h1 class="todos-heading">📒 Digital Khata</h1>
+                        <p class="tagline">A simple browser-based expense tracker 💰</p>
+                    </div>
+                    <div class="col-12">
+                        <h2 class="create-task-heading">
+                            Add <span class="create-task-heading-subpart">Ledger Entry</span>
+                        </h2>
+                        <input type="text" id="nameInput" class="todo-user-input" placeholder="Name" />
+                        <input type="number" id="amountInput" class="todo-user-input" placeholder="Amount (+receive, -give)" />
+                        <input type="date" id="dateInput" class="todo-user-input" />
+                        <button class="button btn btn-primary" id="addEntryButton">Add Entry</button>
+
+                        <h2 class="todo-items-heading mt-5">
+                            My <span class="todo-items-heading-subpart">Ledger</span>
+                        </h2>
+                        <ul class="todo-items-container" id="ledgerContainer"></ul>
+
+
+                        <button class="button btn btn-primary" id="saveLedgerButton">Save Khata</button>
+                        <div id="summary" class="summary-box text-center">
+                            <h4 class="mb-2">💼 Balance Summary</h4>
+                            <p id="totalGiven">Total Given: ₹0</p>
+                            <p id="totalReceived">Total Received: ₹0</p>
+                            <p id="netBalance">Net Balance: ₹0</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <footer class="text-center footer mt-5 py-3">
+            <p>© 2025 Digital Khata | Made with ❤️ by Anish Enduri</p>
+        </footer>
+    </div>
+
+    <script src="digitalkhata.js"></script>
+</body>
+
+</html>
