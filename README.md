@@ -3,11 +3,8 @@ A lightweight, browser-based ledger application to manage personal and business 
 
 ✨ Features
 ✅ Add ledger entries with:
-
 Person’s name
-
 Amount (+received, -given)
-
 Date
 
 🗂 View all entries in a clean, mobile-friendly interface
@@ -20,7 +17,8 @@ Date
 
 📱 Fully responsive layout with Bootstrap
 
-📸 Screenshot
+📸 Screenshot:
+https://github.com/anishenduri/digital-khata/blob/main/Screenshot%202025-07-26%20193305.png
 
 
 
